@@ -1,0 +1,15 @@
+{
+  "name": "my-portfolio",
+  "profile": {
+    "type": "website"
+  },
+  "build": {
+    "command": "npm run build",
+    "baseDirectory": "dist",
+    "publicPath": "/"
+  },
+  "static": {
+    "directory": "dist",
+    "includePatterns": ["**/*"]
+  }
+}
