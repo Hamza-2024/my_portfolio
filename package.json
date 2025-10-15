@@ -4,13 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o dist",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
-  },
-  "engines": {
-    "node": ">=18.17.0",
-    "npm": ">=9.6.7"
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "0.276.0",
@@ -19,6 +15,9 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "20.8.2",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
