@@ -1,0 +1,11 @@
+{
+  "name": "my-portfolio",
+  "main": "src/app/page.js",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "browser": {
+      "directory": "./",
+      "include": ["**/*"]
+    }
+  }
+}
