@@ -4,7 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  trailingSlash: true
+  trailingSlash: true,
+  distDir: '.next',
+  basePath: ''
 }
 
 module.exports = nextConfig
