@@ -15,8 +15,8 @@ export const portfolioData = {
   socials: [
     { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/hamza-anter-8b418a292/", handle: "linkedin.com/in/hamza-anter" },
     { name: "GitHub", icon: Github, url: "https://github.com/Hamza-2024?tab=overview&from=2025-07-01&to=2025-07-31", handle: "github.com/hamza" },
-    { name: "Email", icon: Mail, url: "mailto:22hamzaanter@gmail.com", handle: "22hamzaanter@gmail.com" },
-    { name: "Phone", icon: Smartphone, url: "tel:+353851365315", handle: "+353 851365315" },
+    { name: "Email", icon: Mail, url: "mailto:engineering@hamzaanter.com", handle: "engineering@hamzaanter.com" },
+    
   ],
   projects: [
     {

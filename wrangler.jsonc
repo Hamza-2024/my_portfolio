@@ -17,7 +17,18 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+
+	},
+	"routes": [
+    {
+      "pattern": "hamzaanter.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "hamzaanter.com/*",
+      "zone_id": "096d7388cc61ec005e0b44b082923bf3"
+    },
+  ],
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
