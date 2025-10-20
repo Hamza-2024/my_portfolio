@@ -11,7 +11,7 @@ export const PROFILE_PIC_URL = '/profile_pic.jpg';
 export const portfolioData = {
   name: "Hamza Anter",
   title: "Computer Engineering Student | Full-Stack Enthusiast",
-  intro: "I am a Computer Engineering student at Trinity College Dublin, focusing on building robust and scalable applications. I have a strong passion for full-stack development, utilizing modern technologies like Next.js and Supabase to create highly effective and user-centric solutions.",
+  intro: "I am a Computer Engineering student at Trinity College Dublin, passionate about building robust and scalable applications. Skilled in full-stack development, I leverage modern technologies like Next.js, Supabase, and Auth0 to design and deploy end-to-end solutions. I enjoy turning ideas into production-ready, user-centric applications.",
   socials: [
     { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/hamza-anter-8b418a292/", handle: "linkedin.com/in/hamza-anter" },
     { name: "GitHub", icon: Github, url: "https://github.com/Hamza-2024?tab=overview&from=2025-07-01&to=2025-07-31", handle: "github.com/hamza" },
