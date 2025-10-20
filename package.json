@@ -7,9 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"deploy": "wrangler pages deploy .next",
-		"preview": "wrangler pages dev .next",
-		"cf-typegen": "wrangler types"
+		"pages:deploy": "wrangler pages deploy out",
+		"pages:preview": "wrangler pages dev out"
 	},
 	"dependencies": {
 		"framer-motion": "^10.16.4",
@@ -26,6 +25,6 @@
 		"eslint-config-next": "14.0.2",
 		"postcss": "^8.4.31",
 		"tailwindcss": "^3.3.0",
-		"wrangler": "^3.15.0"
+		"wrangler": "^4.43.0"
 	}
 }
