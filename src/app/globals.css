@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+:root {
   --color-primary: #000000;
   --color-secondary: #FFFFFF;
   --color-accent: #276EF1;
@@ -9,10 +11,11 @@
   --color-gray-border: #E2E2E2;
   --color-gray-text: #545454;
   --color-success: #1FCC79;
-  
-  --font-family-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  }
 }
