@@ -1,10 +1,17 @@
+# Vercel specific ignores
 node_modules
 .git
 .next
 .vercel
 *.log
-Desktop
-Semester*
-Personal*
-myprofile2
-reactive-app
+
+# Parent directory folders that should never be included
+../Desktop
+../Semester*
+../Personal*
+../myprofile2
+../reactive-app
+
+# Additional parent directory exclusions
+../*
+!../myprofile2
