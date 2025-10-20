@@ -1,0 +1,10 @@
+node_modules
+.git
+.next
+.vercel
+*.log
+Desktop
+Semester*
+Personal*
+myprofile2
+reactive-app
