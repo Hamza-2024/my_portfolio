@@ -2,9 +2,9 @@
 const nextConfig = {
   transpilePackages: ['lucide-react'],
   swcMinify: true,
-  output: 'standalone',
-  experimental: {
-    outputFileTracingRoot: undefined,
+  output: 'export',
+  images: {
+    unoptimized: true,
   }
 };
 
