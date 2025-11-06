@@ -1,4 +1,4 @@
-import Code from 'lucide-react/dist/esm/icons/code';
+import { Code } from 'lucide-react';
 
 const ProjectCard = ({ project }) => (
   <div className="bg-slate-800 p-6 rounded-xl shadow-2xl hover:shadow-indigo-500/20 transition duration-300 transform hover:scale-[1.01]">

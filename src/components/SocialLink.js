@@ -1,4 +1,5 @@
-// Import is not needed since we're receiving the icon as a prop
+import { Linkedin } from 'lucide-react';
+
 const SocialLink = ({ icon: Icon, url, handle }) => (
   <a
     href={url}
