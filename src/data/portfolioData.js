@@ -6,7 +6,7 @@ export const PROFILE_PIC_URL = '/profile_pic.jpg';
 export const portfolioData = {
   name: "Hamza Anter",
   title: "Computer Engineering Student | Full-Stack Enthusiast",
-  intro: "I'm Hamza, a 4th-year Computer Engineering student at Trinity College. In my free time, I love working on SaaS projects and building things from scratch—there's something incredibly satisfying about taking an idea and turning it into a real, working product. Whether it's developing full-stack applications or experimenting with new technologies, I'm always excited to create solutions that solve real problems. I'm passionate about the entire process, from design and architecture to deployment, and I'm constantly pushing myself to learn and grow as a developer.",
+  intro: "I'm Hamza, a 4th-year Computer Engineering student at Trinity College. In my free time, I love working on SaaS projects and building things from scratch - there's something incredibly satisfying about taking an idea and turning it into a real, working product. Whether it's developing full-stack applications or experimenting with new technologies, I'm always excited to create solutions that solve real problems. I'm passionate about the entire process, from design and architecture to deployment, and I'm constantly pushing myself to learn and grow as a developer.",
   socials: [
     { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/hamza-anter-8b418a292/", handle: "linkedin.com/in/hamza-anter" },
     { name: "GitHub", icon: Github, url: "https://github.com/Hamza-2024?tab=overview&from=2025-07-01&to=2025-07-31", handle: "github.com/hamza" },
